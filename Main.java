@@ -35,6 +35,7 @@ public class Main {
             return "YES";
         else return "NO";
     }
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] people = new int[4];
@@ -43,31 +44,4 @@ public class Main {
         }
         System.out.println(algorithm(people));
     }
-}
-
- /* for (int i = 0; i < heightOfPeople.length; i++) {
-            sortedArray1[i] = heightOfPeople[i];
-        }
-        for (int i = 0; i < heightOfPeople.length; i++) {
-            for (int j = i + 1; j < heightOfPeople.length; j++) {
-                int temp;
-                if (sortedArray1[i] > sortedArray1[j]) {
-                    temp = sortedArray1[i - 1];
-                    sortedArray1[i - 1] = sortedArray1[i];
-                    sortedArray1[i] = temp;
-                }
-            }
-        }*/
-/*  for (int i = 0; i < heightOfPeople.length; i++) {
-            sortedArray2[i] = heightOfPeople[i];
-        }
-        for (int i = 0; i < heightOfPeople.length; i++) {
-            for (int j = i + 1; j < heightOfPeople.length; j++) {
-                int temp;
-                if (sortedArray2[i] < sortedArray2[j]) {
-                    temp = sortedArray2[i - 1];
-                    sortedArray2[i - 1] = sortedArray2[i];
-                    sortedArray2[i] = temp;
-                }
-            }
-        }*/
+}    
